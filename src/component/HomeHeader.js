@@ -3,10 +3,10 @@ import React from 'react'
 
 const HomeHeader = () => {
   return (
-    <div className='header pt-10'>
+    <div className='header pt-10 lg:mx-40'>
       <a href="#home"><h1>Anna Lartey</h1></a>
 
-      <div className='header'>
+      <div className='header h3'>
         <a href="#home"> <h3>Home</h3> </a>
         <a href="#designs"> <h3>Designs</h3> </a>
         <a href="#about"> <h3>About</h3> </a>

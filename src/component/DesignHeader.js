@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function DesignHeader() {
     return (
-        <div className='design-header pt-10 px-40'>
+        <div className='design-header pt-10 lg:px-40'>
           <Link to="/"><h1>Anna Lartey</h1></Link>
     
           <div className='flex flex-row'>
