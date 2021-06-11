@@ -3,8 +3,8 @@ import React from 'react'
 
 const HomeHeader = () => {
   return (
-    <div className='header pt-10 lg:mx-40'>
-      <a href="#home"><h1>Anna Lartey</h1></a>
+    <div className='header py-10 px-4 lg:mx-40'>
+      <a href="#home"><h1>AL</h1></a>
 
       <div className='header h3'>
         <a href="#home"> <h3>Home</h3> </a>

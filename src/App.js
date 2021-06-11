@@ -1,5 +1,6 @@
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 import './App.css'
+import DetailedAbout from "./component/DetailedAbout";
 import GraphicPage from "./component/GraphicPage";
 import Home from "./component/Home";
 import LyricsPage from "./component/LyricsPage";
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/design-graphics" component={GraphicPage} />
           <Route exact path="/design-lyrics" component={LyricsPage} />
           <Route exact path="/design-paper" component={PaperPage} />
+          <Route exact path="/detailed-about" component={DetailedAbout} />
       </Switch>
   </Router>
   );

@@ -1,6 +1,7 @@
 .App {
   background-image: url("./images/pic1.jpg");
   background-attachment: fixed;
+  background-position: center;
 }
 
 
@@ -113,21 +114,33 @@
 .design-web {
    background-image: url("./images/web1.jpg");
     cursor: pointer;
+    border: double;
+    border-radius: 0 40px;
+    height: 300px;
   }
 
   .design-graph {
      background-image: url("./images/graphic.jpg");
     cursor: pointer;
+    border: double;
+    border-radius: 0 40px;
+    height: 300px;
   }
 
   .design-lyrics {
      background-image: url("./images/lyrics.jpg");
     cursor: pointer;
+    border: double;
+    border-radius: 0 40px;
+    height: 300px;
   }
 
   .design-art {
      background-image: url("./images/paper1.jpg");
     cursor: pointer;
+    border: double;
+    border-radius: 0 40px;
+    height: 300px;
   }
 
 .task.reminder {

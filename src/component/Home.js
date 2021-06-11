@@ -6,6 +6,7 @@ import "aos/dist/aos.css"
 import About from './About';
 import Contact from './Contact';
 import HomeHeader from './HomeHeader';
+import Footer from './Footer';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
             <Designs/>
             <About/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }
