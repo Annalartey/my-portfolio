@@ -10,18 +10,18 @@ function WebsitePage() {
                 <h1 className="font-bold text-3xl lg:mx-14 mt-6 text-center">W<br></br>E<br></br>B<br></br>S<br></br>I<br></br>T<br></br>E<br></br>S</h1>
                 <div className="lg:ml-14">
                     <div className="lg:flex">
-                        <div className="design-box text-2xl font-semibold border-2 border-red-100 mt-8 lg:mr-8">
+                        <div className="mt-8 lg:mr-8">
                             <p>hello.com</p>
                         </div>
-                        <div className="design-box text-2xl font-semibold border-2 border-red-100 mt-8 lg:mr-8">
+                        <div className="mt-8 lg:mr-8">
                             <p>newsite.com</p>
                         </div>
                     </div>
                     <div className="lg:flex">
-                        <div className="design-box text-2xl font-semibold border-2 border-red-100 mt-8 lg:mr-8">
+                        <div className="mt-8 lg:mr-8">
                             <p>hello.com</p>
                         </div>
-                        <div className="design-box text-2xl font-semibold border-2 border-red-100 mt-8 lg:mr-8">
+                        <div className="mt-8 lg:mr-8">
                             <p>newsite.com</p>
                         </div>
                     </div>
