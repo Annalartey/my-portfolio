@@ -76,17 +76,17 @@ function DetailedAbout() {
                     </div>
                 </div>
                 <div className="">
-                    <p>html and css</p>
+                    <p>html and css (tailwind)</p>
                     <div class="h-3 relative max-w-xl rounded-full overflow-hidden">
                         <div class="w-full h-full bg-gray-200 absolute"></div>
                         <div class="h-full w-full bg-green-500 absolute"></div>
                     </div>
                 </div>
                 <div className="">
-                    <p>tailwind</p>
+                    <p>Figma</p>
                     <div class="h-3 relative max-w-xl rounded-full overflow-hidden">
                         <div class="w-full h-full bg-gray-200 absolute"></div>
-                        <div class="h-full w-3/4 bg-green-500 absolute"></div>
+                        <div class="h-full w-2/4 bg-green-500 absolute"></div>
                     </div>
                 </div>
                 <div className="">

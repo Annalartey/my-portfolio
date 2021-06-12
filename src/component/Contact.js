@@ -10,7 +10,6 @@ function Contact() {
                         <div className="w-40 lg:w-20 h-1 bg-red-600 ml-14 mb-10 rounded-2xl"></div>
                         <div className="text-center lg:text-left">
                             <p className="text-2xl">anna.t.lartey@gmail.com</p>
-                            <p className="text-2xl">+233544929176</p>
                         </div>
                         
                     </div>
