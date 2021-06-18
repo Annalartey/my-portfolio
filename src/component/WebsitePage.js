@@ -10,7 +10,7 @@ function WebsitePage() {
             <div className="flex">
                 <h1 className="font-bold text-3xl lg:mx-14 mt-6 text-center">W<br></br>E<br></br>B<br></br>S<br></br>I<br></br>T<br></br>E<br></br>S</h1>
                 <div className="lg:ml-14">
-                        <a href="/" ><div className="mt-8">
+                        <a href="https://github.com/NearForGood/website-boybetterpray" ><div className="mt-8">
                             <p>BoyBetterPray</p>
                         </div>  </a>
                         <div className="mt-8">
@@ -19,6 +19,11 @@ function WebsitePage() {
                         <a href="https://trasker.netlify.app">
                             <div className="mt-8">
                                 <p>Task Tracker App</p>
+                            </div>
+                        </a>
+                        <a href="https://nifty-panini-23115f.netlify.app/">
+                            <div className="mt-8">
+                                <p>One Big Family</p>
                             </div>
                         </a>
                         <div className="mt-8">
