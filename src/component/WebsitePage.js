@@ -16,7 +16,7 @@ function WebsitePage() {
                         <div className="mt-8">
                             <p>portfolio</p>
                         </div>
-                        <a href="https://traska.netlify.app">
+                        <a href="https://trasker.netlify.app">
                             <div className="mt-8">
                                 <p>Task Tracker App</p>
                             </div>
