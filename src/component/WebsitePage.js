@@ -10,7 +10,7 @@ function WebsitePage() {
             <div className="flex">
                 <h1 className="font-bold text-3xl lg:mx-14 mt-6 text-center">W<br></br>E<br></br>B<br></br>S<br></br>I<br></br>T<br></br>E<br></br>S</h1>
                 <div className="lg:ml-14">
-                        <a href="https://github.com/NearForGood/website-boybetterpray" ><div className="mt-8">
+                        <a href="https://stoic-nobel-14817f.netlify.app" ><div className="mt-8">
                             <p>BoyBetterPray</p>
                         </div>  </a>
                         <div className="mt-8">
