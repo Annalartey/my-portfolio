@@ -8,7 +8,7 @@ import Footer from './Footer'
 function DetailedAbout() {
     return (
         <div>
-             <div className='lg:flex lg:flex-row text-white pb-80 pt-2 App'>
+             <div className='lg:flex lg:flex-row text-black pb-80 pt-2 App'>
                <div>
                    <a href="/#about"> BACK </a>
                     <div className=" " data-aos="fade-right">

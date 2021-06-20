@@ -7,6 +7,7 @@ import About from './About';
 import Contact from './Contact';
 import HomeHeader from './HomeHeader';
 import Footer from './Footer';
+import Skills from './Skills';
 
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
             <Main/>
             <Designs/>
             <About/>
+            <Skills/>
             <Contact/>
             <Footer/>
         </div>
