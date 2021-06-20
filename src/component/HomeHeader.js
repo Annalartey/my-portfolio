@@ -3,7 +3,7 @@ import React from 'react'
 
 const HomeHeader = () => {
   return (
-    <div className='header py-10 px-4 lg:mx-40'>
+    <div className='header py-10 px-4 lg:px-40 bg-fixed'>
       <a href="#home"><h1>AL</h1></a>
 
       <div className='header h3'>

@@ -9,12 +9,12 @@ function Main() {
         Aos.init({duration:2000});   
     }, [])
     return (
-        <div className=''>
+        <div className='main'>
             <div id='home' className='App-header lg:flex lg:flex-row w-full lg:justify-between items-start lg:items-center text-white' data-aos="fade-up" >
                 <div data-aos="fade-right" className=" lg:px-40">
-                    <h1 className="text-5xl text-center lg:text-left lg:text-9xl mb-10 mt-10 font-semibold">Anna <br></br> Lartey</h1>
-                    <div className="w-40 lg:w-20 h-1 bg-red-600 my-2 lg:my-4 rounded-lg "></div>
-                    <div className="w-40 lg:w-20 h-1 bg-red-600 ml-6 lg:ml-14 mb-10 rounded-2xl"></div>
+                    <h1 className="text-5xl text-center lg:text-left lg:text-9xl mb-10 pt-10 font-semibold">Anna <br></br> Lartey</h1>
+                    <div className="w-40 lg:w-20 h-1 bg-white my-2 lg:my-4 rounded-lg "></div>
+                    <div className="w-40 lg:w-20 h-1 bg-white ml-6 lg:ml-14 mb-10 rounded-2xl"></div>
                     <p className="text-center lg:text-left lg:text-xl">Graphic and Web Designer / <br></br>
                     Frontend Software Developer</p>
                 </div>
