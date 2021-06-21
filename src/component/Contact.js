@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div id='contact' className='lg:flex lg:flex-row text-black'>
+        <div id='contact' className='lg:flex lg:flex-row text-black pt-14'>
                <div className=" lg:ml-40">
                     <div data-aos="fade-right">
                         <h1 className="text-center lg:text-left font-semibold text-5xl lg:text-8xl mb-10">Get In Touch</h1>
@@ -14,7 +14,7 @@ function Contact() {
                         
                     </div>
                     <a href="../DetailedAbout" >
-                        <button  data-aos="fade-up" className='border-2 font-bold ml-32 lg:-ml-2 lg:text-xl my-10 lg:px-8 py-2 px-4 lg:ml-40'> See More</button>
+                        <button  data-aos="fade-up" className='rounded-xl border-2 border-red-400 font-bold ml-32 lg:-ml-2 lg:text-xl my-10 lg:px-8 px-4 lg:ml-40'> See More</button>
                     </a> 
                </div>
                

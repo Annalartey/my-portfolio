@@ -1,15 +1,14 @@
 import React from 'react'
-import DesignHeader from './DesignHeader'
+import WebHeader from './WebHeader'
 import Footer from './Footer'
 
 function WebsitePage() {
     return (
         <div className="">
-            <DesignHeader/>
-            <button className="border-2 border-black px-4 py-2">Show Me More</button>
+            <WebHeader/>
             <div className="flex">
-                <h1 className="font-bold text-3xl lg:mx-14 mt-6 text-center">W<br></br>E<br></br>B<br></br>S<br></br>I<br></br>T<br></br>E<br></br>S</h1>
-                <div className="lg:ml-14">
+                <h1 className="font-bold text-3xl lg:mx-14 my-6 px-4 text-center">W<br></br>E<br></br>B<br></br>S<br></br>I<br></br>T<br></br>E<br></br>S</h1>
+                <div className="lg:ml-14 text-center">
                         <a href="https://stoic-nobel-14817f.netlify.app" ><div className="mt-8">
                             <p>BoyBetterPray</p>
                         </div>  </a>

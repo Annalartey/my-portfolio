@@ -1,5 +1,5 @@
 import React from 'react'
-import DesignHeader from './DesignHeader'
+import GraphHeader from './GraphHeader'
 import Footer from './Footer'
 import img1 from "./flyers/img1-min.jpg"
 import img3 from "./flyers/img3-min.jpg"
@@ -11,7 +11,7 @@ import img9 from "./flyers/img9-min.jpg"
 function GraphicPage() {
     return (
         <div>
-            <DesignHeader/>
+            <GraphHeader/>
             <div className="flex mb-80">
                 <h1 className="font-bold text-3xl lg:mx-14 mt-6 text-center">G<br></br>R<br></br>A<br></br>P<br></br>H<br></br>I<br></br>C<br></br>S</h1>
                 <div className="mx-4 lg:ml-14">

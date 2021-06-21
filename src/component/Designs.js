@@ -18,7 +18,7 @@ function Designs() {
             
             <div className="lg:px-40 lg:w-full " >
                 <div className='lg:flex lg:flex-row lg:w-100% lg:pl-40' data-aos="fade-up">
-                <Link to="/design-website"> <div className='design-web lg:w-96 text-2xl font-semibold border-2 border-red-100 lg:mr-8 mt-8 mx-4 lg:mx-0 '>Website</div></Link>
+                <Link to="/design-website"> <div className='design-web lg:w-96 text-2xl font-semibold border-2 border-red-100 lg:mr-8 mt-8 mx-4 lg:mx-0 '>Coding Projects</div></Link>
                 <Link to="/design-graphics"><div className='design-graph lg:w-96 text-2xl  font-semibold border-2 border-red-100 mt-8 mx-4 lg:mx-0 '>Graphic Designs</div></Link>
                 </div>
                 <div className='lg:flex lg:flex-row lg:w-100% lg:pl-40' data-aos="fade-up">

@@ -1,5 +1,5 @@
 import React from 'react'
-import DesignHeader from './DesignHeader'
+import PaperHeader from './PaperHeader'
 import Footer from './Footer'
 import img1 from "./paper/1-min.jpg"
 import img2 from "./paper/2-min.jpg"
@@ -11,7 +11,7 @@ import img6 from "./paper/6-min.jpg"
 function PaperPage() {
     return (
         <div>
-            <DesignHeader/>
+            <PaperHeader/>
             <div className="flex">
                 <h1 className="font-bold text-3xl lg:mx-14 mt-6 text-center">P<br></br>A<br></br>P<br></br>E<br></br>R</h1>
                 <div className="mx-4 lg:ml-14">

@@ -1,12 +1,12 @@
 import React from 'react'
-import DesignHeader from './DesignHeader'
+import LyricsHeader from './LyricsHeader'
 import Footer from './Footer'
 import ReactPlayer from 'react-player/youtube'
 
 function LyricsPage() {
     return (
         <div>
-            <DesignHeader/>
+            <LyricsHeader/>
             <div className="flex">
                 <h1 className="font-bold text-3xl mx-2 lg:mx-14 mt-6 text-center">L<br></br>Y<br></br>R<br></br>I<br></br>C<br></br>S</h1>
                 <div className=" lg:ml-56">
