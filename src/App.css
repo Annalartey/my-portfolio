@@ -128,36 +128,44 @@
    background-image: url("./images/web1.jpg");
     cursor: pointer;
     border: double;
-    border-radius: 0 40px;
-    height: 300px;
+    border-radius: 0 20px;
+    height: 200px;
+    width: 100%;
     color: white;
+  
   }
 
   .design-graph {
      background-image: url("./images/graphic.jpg");
-    cursor: pointer;
-    border: double;
-    border-radius: 0 40px;
-    height: 300px;
-    color: white;
+     cursor: pointer;
+     border: double;
+     border-radius: 0 20px;
+     height: 200px;
+     width: 100%;
+     color: white;
+   
   }
 
   .design-lyrics {
      background-image: url("./images/lyrics.jpg");
-    cursor: pointer;
-    border: double;
-    border-radius: 0 40px;
-    height: 300px;
-    color: white;
+     cursor: pointer;
+     border: double;
+     border-radius: 0 20px;
+     height: 200px;
+     width: 100%;
+     color: white;
+   
   }
 
   .design-art {
      background-image: url("./images/paper1.jpg");
     cursor: pointer;
     border: double;
-    border-radius: 0 40px;
-    height: 300px;
+    border-radius: 0 20px;
+    height: 200px;
+    width: 100%;
     color: white;
+  
   }
 
 .task.reminder {
