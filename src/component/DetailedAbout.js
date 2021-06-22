@@ -9,15 +9,7 @@ function DetailedAbout() {
     return (
         <div>
              <div className='lg:flex lg:flex-row text-black pb-80 pt-2 App'>
-               <div>
                    <a href="/#about"> BACK </a>
-                    <div className=" " data-aos="fade-right">
-                        <h1 className="text-center lg:text-left font-semibold text-5xl lg:text-8xl mb-10  mt-28 lg:pl-40">About Me</h1>
-                        <div className="w-40 lg:w-20 h-1 bg-red-600 my-2 lg:ml-40 rounded-2xl "></div>
-                        <div className="w-40 lg:w-20 h-1 bg-red-600 ml-14 lg:ml-48 mb-10 rounded-2xl"></div>
-                        <p className="text-center lg:text-left text-2xl mx-2 lg:mx-0 lg:pl-40 mb-10">I love kids, I am passionate about technology, <br></br> stories and anything art</p>
-                    </div>
-               </div>
                <div className=" w-full lg:w-1/2 h-96 lg:ml-20" data-aos="fade-right">
                <img data-aos="fade-right"  src={eight} alt="kids" />
               </div>
