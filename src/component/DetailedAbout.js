@@ -8,18 +8,12 @@ import Footer from './Footer'
 function DetailedAbout() {
     return (
         <div>
-             <div className='lg:flex lg:flex-row text-black pb-80 pt-2 App'>
-                   <a href="/#about"> BACK </a>
-               <div className=" w-full lg:w-1/2 h-96 lg:ml-20" data-aos="fade-right">
-               <img data-aos="fade-right"  src={eight} alt="kids" />
-              </div>
-                 
-            </div> 
-            <div className="lg:flex lg:px-40 py-40 text-center lg:text-left">
-                <h1 className="text-4xl lg:w-1/2"> WHO I AM</h1>
+            <div className="lg:flex lg:px-40 py-20  text-center lg:text-left">
+                <a href="/#about" className=""> BACK </a>
+                <h1 className="text-4xl lg:w-1/2 pb-6"> WHO I AM</h1>
                 <div className="lg:w-1/2">
                     <p className="">I am just a girl that loves living. I love kids i love technology i love stories, music and anything that's got to do with Art</p>
-                    <img className="w-96 h-96 mt-20" src={eight} alt="me"/>
+                    <img className="w-96 h-56 mt-20" src={eight} alt="me"/>
                 </div>
                 
             </div>
