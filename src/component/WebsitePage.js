@@ -13,8 +13,8 @@ function WebsitePage() {
                         <p className="mx-6 text-4xl">1.</p>
                         <div>
                             <h1>BoyBetterPray</h1>
-                            <a href="https://stoic-nobel-14817f.netlify.app" target="_" >
-                                <button className="rounded-xl border-2 border-green-600 mt-2 px-4 text-green-600 hover:text-gray-400">Veiw Site</button>
+                            <a href="http://www.boybetterpray.com" target="_" >
+                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
                             </a>
                         </div>
                     </div>
@@ -24,7 +24,7 @@ function WebsitePage() {
                         <div>
                             <h1>Portfolio</h1>
                             <a href="/" target="_" >
-                                <button className="rounded-xl border-2 border-green-600 mt-2 px-4 text-green-600 hover:text-gray-400">Veiw Site</button>
+                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
                             </a>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ function WebsitePage() {
                         <div>
                             <h1>Task Tracker App</h1>
                             <a href="https://trasker.netlify.app" target="_" >
-                                <button className="rounded-xl border-2 border-green-600 mt-2 px-4 text-green-600 hover:text-gray-400">Veiw App</button>
+                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw App</button>
                             </a>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ function WebsitePage() {
                         <div>
                             <h1>One Big Family</h1>
                             <a href="https://nifty-panini-23115f.netlify.app/" target="_" >
-                                <button className="rounded-xl border-2 border-green-600 mt-2 px-4 text-green-600 hover:text-gray-400">Veiw Site</button>
+                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
                             </a>
                         </div>
                     </div>
@@ -55,7 +55,7 @@ function WebsitePage() {
                         <div>
                             <h1 className="text-lg font-semibold">MyKidismart App</h1>
                             <a href="/" target="_" >
-                                <button className="rounded-xl border-2 border-green-600 mt-2 px-4 text-green-600 hover:text-gray-400">Veiw Site</button>
+                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
                             </a>
                         </div>
                     </div>
