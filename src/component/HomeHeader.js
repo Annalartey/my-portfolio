@@ -4,6 +4,19 @@ import React from 'react'
 
 
 const HomeHeader = () => {
+
+  // state = {
+  //   navBackground: "transparent"
+  // };
+
+  // componentDidMount() {
+  //   document.addEventListener("scroll", () => {
+  //     const backgroundcolor = window.scrollY < 70 ? "transparent" : "blue";
+
+  //     this.setState({ navBackground: backgroundcolor });
+  //   });
+  // }
+
   return (
       <div className='header space-x-6 lg:space-x-14 lg:text-lg py-8 font-semibold'>
         <a href="#home"> <h3>| Home</h3> </a>

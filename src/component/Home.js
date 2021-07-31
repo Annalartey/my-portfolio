@@ -9,6 +9,7 @@ import Footer from './Footer';
 import Skills from './Skills';
 
 
+
 function Home() {
     useEffect(() => {
         Aos.init({duration:2000});   
@@ -20,6 +21,7 @@ function Home() {
             <About/>
             <Skills/>
             <Contact/>
+      
             <Footer/>
         </div>
     )
