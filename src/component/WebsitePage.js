@@ -1,85 +1,77 @@
-import React from 'react'
-import WebHeader from './WebHeader'
-import Footer from './Footer'
+import React from "react";
+import WebHeader from "./WebHeader";
+import Footer from "./Footer";
+
+
+let projects = [
+  {
+    title: "Calculator",
+    info: "A simple calculator made with vanilla JS, HTML/CSS",
+    link: "https://a-calculator-for-you.netlify.app/",
+  },
+  {
+    title: "Task Tracker",
+    info: "An app that helps you track your tasks for the day.",
+    link: "https://trasker.netlify.app/",
+  },
+  {
+    title: "Stopwatch",
+    info: "A simple stopwatch built with vanilla JS, HTML/CSS",
+    link: "https://a-stopwatch.netlify.app/"
+  },
+  {
+    title: "One Big Family",
+    info: "Just another website",
+    link: "https://nifty-panini-23115f.netlify.app/"
+  },
+  {
+    title: "Gessing Game App",
+    info: "Just another website",
+    link: "https://guessit-game.netlify.app"
+  },
+  {
+    title: "Fashion",
+    info: "Just another website",
+    link: "https://bbklartey.netlify.app"
+  }
+];
 
 function WebsitePage() {
-    return (
-        <div className="">
-            <WebHeader/>
-            <div className="flex py-2">
-                <h1 className="font-bold text-3xl lg:mx-14 my-6 px-4 text-center">W<br></br>E<br></br>B<br></br>S<br></br>I<br></br>T<br></br>E<br></br>S</h1>
-                <div className="lg:ml-14 text-center">
-                    <div className="flex rounded shadow mt-8 w-80 h-40">
-                        <p className="mx-6 text-4xl">1.</p>
-                        <div>
-                            <h1>JavaScript Calculator</h1>
-                            <p>A simple Calculator made with JavaScript, HTML and CSS</p>
-                            <a href="https://a-calculator-for-you.netlify.app/" target="_" >
-                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="flex rounded shadow mt-8 w-80 h-40">
-                        <p className="mx-6 text-4xl">1.</p>
-                        <div>
-                            <h1>JavaScript Stopwatch</h1>
-                            <p>A simple stopwatch made with JavaScript, HTML and CSS</p>
-                            <a href="https://a-stopwatch.netlify.app/" target="_" >
-                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="flex rounded shadow mt-8 w-80 h-40">
-                        <p className="mx-6 text-4xl">2.</p>
-                        <div>
-                            <h1>Portfolio</h1>
-                            <a href="/" target="_" >
-                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div className="flex rounded shadow mt-8 w-80 h-40">
-                        <p className="mx-6 text-4xl">3.</p>
-                        <div>
-                            <h1>Task Tracker App</h1>
-                            <a href="https://trasker.netlify.app" target="_" >
-                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw App</button>
-                            </a>
-                        </div>
-                    </div>
-                    
-
-                    <div className="flex rounded shadow mt-8 w-80 h-40">
-                        <p className="mx-6 text-4xl">4.</p>
-                        <div>
-                            <h1>One Big Family</h1>
-                            <a href="https://nifty-panini-23115f.netlify.app/" target="_" >
-                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div className="flex rounded shadow mt-8 w-80 h-40">
-                        <p className="mx-6 text-4xl">5.</p>
-                        <div>
-                            <h1 className="text-lg font-semibold">MyKidismart App</h1>
-                            <a href="/" target="_" >
-                                <button className="rounded border-2 border-grey-600 mt-2 px-4 text-grey-600 ">Veiw Site</button>
-                            </a>
-                        </div>
-                    </div>
-                       
-                </div>
-            </div>
-           
-            <Footer/>
-            
-
+  return (
+    <div className="">
+      <WebHeader />
+      <div className="max-w-5xl mx-auto">
+        <div className="p-10">
+          <h1 className="my-10 font-extrabold text-2xl text-center md:text-left">
+           Coding Projects
+          </h1>
+          <div className="flex flex-col md:flex-row flex-wrap">
+            {projects.map((project, projectIndex) => {
+              return (
+                <a
+                  key={projectIndex}
+                  className="w-full md:w-1/2 lg:w-1/3 text-center md:text-left py-6"
+                  href={project.link || ""}
+                  target="__blank"
+                  rel="noreferrer"
+                >
+                  <div className="rounded bg-[url('../images/web1.jpg')] bg-center bg-cover shadow-lg w-72 h-72 bg-gray-300 mx-auto md:mr-auto md:ml-o md:mx-0 ">
+                    <h1 className="font-bold text-xl mt-3 text-gray-900">
+                      {project.title}
+                    </h1>
+                    <p className="font-semibold text-xl mt-3 text-gray-900">
+                      {project.info}
+                    </p>
+                  </div>
+                </a>
+              );
+            })}
+          </div>
         </div>
-    )
+      </div>
+      <Footer />
+    </div>
+  );
 }
 
-export default WebsitePage
+export default WebsitePage;

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 function PaperHeader() {
     return (
         <div className='design-header py-4 px-2 lg:px-40'>
-        <Link to="/"><h1>L.A.T</h1></Link>
+        <Link to="/"><h1>A.T.L</h1></Link>
   
         <div className='flex flex-row'>
           <Link to="/design-website"><h3 >Websites</h3> </Link>
