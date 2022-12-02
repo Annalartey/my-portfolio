@@ -1,39 +1,8 @@
 import React from 'react'
-// import { Link } from 'react-router-dom'
-// import logo from '../images/logo-b.png'
-
-
-// const HomeHeader = () => {
-
-  // state = {
-  //   navBackground: "transparent"
-  // };
-
-  // componentDidMount() {
-  //   document.addEventListener("scroll", () => {
-  //     const backgroundcolor = window.scrollY < 70 ? "transparent" : "blue";
-
-  //     this.setState({ navBackground: backgroundcolor });
-  //   });
-  // }
-
-//   return (
-//       <div className='header space-x-6 lg:space-x-14 lg:text-lg py-8 font-semibold'>
-//         <a href="#home"> <h3>| Home</h3> </a>
-//         <a href="#designs"> <h3>| Designs</h3> </a>
-//         <a href="#about"> <h3>| About</h3> </a>
-//         <a href="#contact"> <h3>| Contact</h3> </a>
-//       </div> 
-//   );
-// }
-// export default HomeHeader
-
 
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-// import {SocialMediaIconsReact} from 'social-media-icons-react';
-
 
 const navigation = [
   { name: "Home", href: "#home" },
@@ -53,7 +22,7 @@ function Header() {
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-1xl text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500 lg:text-2xl">
+            <Popover.Button className="inline-flex items-center justify-center rounded-3xl bg-white p-2 text-gray-400 hover:text-gray-500 focus:outline-none">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -69,11 +38,6 @@ function Header() {
               </a>
             ))}
           </Popover.Group>
-          {/* <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-        
-           <SocialMediaIconsReact icon="instagram" iconColor="black" backgroundColor="white" borderStyle="none" url="/#" size="28" />
-           <SocialMediaIconsReact icon="youtube-play" iconColor="black" backgroundColor="white" borderStyle="none"  url="/#" size="28" />
-          </div> */}
         </div>
 
         <Transition
@@ -98,7 +62,7 @@ function Header() {
                     </a>
                   </div>
                   <div className="-mr-2">
-                    <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                    <Popover.Button className="inline-flex items-center justify-center text-black hover:text-gray-500 focus:outline-none">
                       <span className="sr-only">Close menu</span>
                       <XIcon className="h-6 w-6" aria-hidden="true" />
                     </Popover.Button>
@@ -117,10 +81,6 @@ function Header() {
                     </a>
                   ))}
                 </div>
-                {/* <div className="flex justify-center mt-4">
-                <SocialMediaIconsReact icon="instagram" iconColor="black" backgroundColor="white" borderStyle="none" url="/#" size="28" />
-           <SocialMediaIconsReact icon="youtube-play" iconColor="black" backgroundColor="white" borderStyle="none"  url="/#" size="28" />
-                </div> */}
               </div>
             </div>
           </Popover.Panel>

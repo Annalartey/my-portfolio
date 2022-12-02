@@ -2,6 +2,7 @@ import React, {useEffect} from 'react'
 import Aos from 'aos';
 import "aos/dist/aos.css"
 import HomeHeader from './HomeHeader';
+import PortfolioText from './PortfolioText';
 
 
 function Main() {
@@ -22,7 +23,7 @@ function Main() {
                 </div>
                 <div data-aos="fade-left" className="text-center font-bold text-4xl lg:text-6xl text-gray-200 lg:mr-40 pt-40 lg:py-0">
 
-                    <h1>PORTFOLIO</h1>
+                   <PortfolioText/>
                 </div>
 
             </div>
