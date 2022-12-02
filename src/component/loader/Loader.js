@@ -8,13 +8,14 @@ function Loader() {
         <div className="title">
           <span className="title_cover"></span>
           <h1>
-            Kaio Almeida<span></span>
+            Anna Lartey<span></span>
           </h1>
         </div>
 
         <div className="role">
           <div className="role_cover"></div>
-          <p>UI Dev designer</p>
+          <p>Graphic and Web Designer</p>
+          <p>Frontend Software Developer</p>
         </div>
       </div>
     </div>
