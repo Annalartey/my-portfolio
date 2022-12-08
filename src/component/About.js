@@ -12,7 +12,7 @@ function About() {
     }, [])
     return (
      
-           <div id='about' className='about lg:flex lg:flex-row text-black pt-40'>
+           <div id='about' className='lg:flex lg:flex-row text-black pt-40'>
                <div>
                     <div data-aos="fade-left">
                         <h1 className="text-center lg:text-left font-semibold text-5xl lg:text-8xl mb-10  lg:pl-40">About Me</h1>
