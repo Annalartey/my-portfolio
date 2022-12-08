@@ -38,11 +38,10 @@ function Home() {
              ) : (
             <div className='App' data-aos="fade-up">
             <Main/>
-            <Designs/>
             <About/>
+            <Designs/>
             <Skills/>
             <Contact/>
-      
             <Footer/>
             </div>
             )}

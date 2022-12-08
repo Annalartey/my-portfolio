@@ -234,7 +234,33 @@ footer {
   z-index: 1;
 }
 
-.spinner {
+.view-btn{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    font-size: xx-large;
+    color: red;   
+}
+.view-btn:hover{
+  color: rgb(34, 255, 0); 
+  font-weight: bold; 
+   
+}
+.skills{
+  margin: 20px 0 10px 0;
+}
+.slider{
+  min-width: 100%;
+  min-height: 800px;
+}
+.about{
+  min-height: 100vh;
+  min-width: 100%;
+}
+/* .spinner {
   width: 64px;
   height: 64px;
   border: 8px solid;
@@ -250,4 +276,4 @@ footer {
   100% {
       transform: rotate(360deg);
   }
-}
+} */

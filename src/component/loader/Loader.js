@@ -14,7 +14,6 @@ function Loader() {
 
         <div className="role">
           <div className="role_cover"></div>
-          <p>Graphic and Web Designer</p>
           <p>Frontend Software Developer</p>
         </div>
       </div>
