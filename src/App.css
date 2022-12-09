@@ -1,4 +1,9 @@
+*{
+  
+  padding: 0;
+}
 .App {
+  margin: 0;
 
 }
 
@@ -255,9 +260,6 @@ footer {
 .slider{
   min-width: 100%;
   min-height: 800px;
-}
-.about{
-
 }
 /* .spinner {
   width: 64px;

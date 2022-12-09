@@ -92,7 +92,7 @@ function Designs() {
           <div className="w-40 lg:w-20  h-1 bg-red-600 ml-14 mb-10 rounded-2xl"></div>
         </div>
 
-        <ImageSlider className="slider w-80 h-80" images={[projects[0].image, projects[1].image, projects[2].image, projects[3].image]} />
+        <ImageSlider className="slider w-80 h-40" images={[projects[0].image, projects[1].image, projects[2].image, projects[3].image]} />
 
         <Link to="/design-website">
           <ViewButton />

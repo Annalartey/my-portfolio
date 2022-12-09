@@ -36,7 +36,7 @@ function Home() {
                 // </div>
                 <Loader/>
              ) : (
-            <div className='App' data-aos="fade-up">
+            <div>
             <Main/>
             <About/>
             <Designs/>
