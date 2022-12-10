@@ -172,7 +172,7 @@ function Designs() {
           <div className="w-40 lg:w-20 h-1 bg-red-600 mb-2 rounded-2xl "></div>
           <div className="w-40 lg:w-20  h-1 bg-red-600 ml-14 mb-10 rounded-2xl"></div>
         </div>
-        <Gallery/>
+        {/* <Gallery/> */}
 
         {/* <div className="lg:mx-40 flex flex-col md:flex-row flex-wrap">
           {graphics.map((graphic, graphicIndex) => {
