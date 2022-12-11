@@ -8,7 +8,6 @@ import stopwatch from "../projects-img/stopwatch.png";
 import task from "../projects-img/task.png";
 // import etrc from "../projects-img/etrc.png";
 import ViewButton from "./ViewButton";
-import Gallery from "./Gallery";
 // import ImageSlider from "./ImageSlider";
 
 function Designs() {
@@ -172,7 +171,6 @@ function Designs() {
           <div className="w-40 lg:w-20 h-1 bg-red-600 mb-2 rounded-2xl "></div>
           <div className="w-40 lg:w-20  h-1 bg-red-600 ml-14 mb-10 rounded-2xl"></div>
         </div>
-        {/* <Gallery/> */}
 
         {/* <div className="lg:mx-40 flex flex-col md:flex-row flex-wrap">
           {graphics.map((graphic, graphicIndex) => {
