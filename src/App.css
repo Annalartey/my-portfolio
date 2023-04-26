@@ -1,14 +1,18 @@
 *{
   font-family: 'Roboto', sans-serif;
   padding: 0;
+  margin: 0;
 }
 .App {
   margin: 0;
 
 }
-
+body::-webkit-scrollbar{
+  display: none;
+}
 .main {
-  background-image: url("./images/pic.jpg");
+  /* background-image: url("./images/pic.jpg"); */
+  background-color:#ffffff;
   background-attachment: fixed;
   background-position: center;
 }
@@ -27,7 +31,7 @@
 .App-header {
   min-height: 100vh;
   min-width: 100%;
-  color: white;
+  color: rgb(57, 57, 57);
 }
 
 

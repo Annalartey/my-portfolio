@@ -39,8 +39,8 @@ function Home() {
              ) : (
             <div>
             <Main/>
-            <About/>
             <Designs/>
+            <About/>
             <Skills/>
             <Contact/>
             <Footer/>
