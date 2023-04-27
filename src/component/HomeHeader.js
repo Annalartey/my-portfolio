@@ -13,11 +13,11 @@ const navigation = [
 
 function Header() {
   return (
-    <div className="relative font-serif">
-      <Popover className=" ">
-        <div className=".header flex justify-between items-center max-w-7xl mx-auto px-4 py-8 sm:px-6 md:justify-start md:space-x-10 lg:px-0 lg:py-12">
+    <div className="header relative font-serif">
+      <Popover className="w-full">
+        <div className="flex align-center justify-between items-center max-w-100% mx-auto px-4 py-8 sm:px-6 md:justify-start md:space-x-10 lg:px-0 lg:py-8">
           <div className="text-4xl text-white flex justify-start lg:w-0 lg:flex-1 lg:text-3xl">
-            <a href="/">
+            <a href="/#home">
               <h1>A.T.L</h1>
             </a>
           </div>

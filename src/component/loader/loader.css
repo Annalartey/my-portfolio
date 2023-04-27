@@ -93,9 +93,9 @@
            font-weight: 400;
           font-family: 'Lato';
           color: #ffffff;
-          font-size: 12px;
+          font-size: 10px;
           text-transform: uppercase;
-          letter-spacing: 5px;
+          letter-spacing: 2px;
         }
       
   
@@ -219,3 +219,17 @@
        bottom: 0px;
     }
   } 
+  @media screen and (min-width: 80rem) {
+
+    .loader_main .content p {
+      animation: secFadeIn 2s forwards;
+      animation-delay: 3.2s;
+      opacity: 0;
+       font-weight: 400;
+      font-family: 'Lato';
+      color: #ffffff;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 5px;
+    }
+  }
