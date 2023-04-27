@@ -10,6 +10,7 @@ import Footer from './Footer';
 import Skills from './Skills';
 import Loader from './loader/Loader';
 import HomeHeader from './HomeHeader';
+import SidebarMenu from './SidebarMenu';
 // import Works from './Works';
 
 
@@ -40,11 +41,16 @@ function Home() {
              ) : (
             <div>
             <HomeHeader/>
-            <Main/>
-            <Designs/>
-            <About/>
-            <Skills/>
-            <Contact/>
+            <div className='flex'>
+                <SidebarMenu/>
+                <div>
+                    <Main/>
+                    <Designs/>
+                    <About/>
+                    <Skills/>
+                    <Contact/>
+                </div>
+            </div>
             <Footer/>
             </div>
             )}
