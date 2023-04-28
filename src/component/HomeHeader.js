@@ -15,17 +15,12 @@ function Header() {
   return (
     <div className="header relative font-serif">
       <Popover className="w-full">
-        <div className="flex align-center justify-between items-center max-w-100% mx-auto px-4 py-4 sm:px-6 md:justify-start md:space-x-10 lg:px-0">
-          <div>
-            <div className="text-4xl text-red-200 flex justify-start lg:w-0 lg:flex-1 lg:text-3xl">
-              <a href="/#home">
-                <h1>A.L</h1>
-              </a>
+        <div className="flex flex-col align-center justify-between items-center max-w-100% mx-auto px-4 py-4 sm:px-6 md:justify-start md:space-x-10 lg:px-0">
+          <div className="text-4xl text-red-200 flex justify-start lg:w-0 lg:flex-1 lg:text-3xl">
+            <a href="/#home">
+              <h1>A.L</h1>
+            </a>
           </div>
-          <div> -- (+233) 0544929176 </div>
-          <div> -- anna.t.lartey@gmail.com </div>
-          </div>
-          
           <div className="-mr-2 -my-2 md:hidden">
             <Popover.Button className="inline-flex items-center justify-center rounded-3xl bg-white p-2 text-gray-400 hover:text-gray-500 focus:outline-none">
               <span className="sr-only">Open menu</span>
