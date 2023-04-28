@@ -9,7 +9,6 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Skills from './Skills';
 import Loader from './loader/Loader';
-import HomeHeader from './HomeHeader';
 // import Works from './Works';
 
 
@@ -39,7 +38,6 @@ function Home() {
                 <Loader/>
              ) : (
             <>
-            <HomeHeader/>
             <Main/>
             <Designs/>
             <About/>
