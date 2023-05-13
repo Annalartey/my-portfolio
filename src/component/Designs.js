@@ -6,9 +6,12 @@ import web1 from "../images/web1.jpg";
 import cal from "../projects-img/cal-light.png";
 import stopwatch from "../projects-img/stopwatch.png";
 import task from "../projects-img/task.png";
+import med1 from "../images/med1.PNG";
+import med2 from "../images/med2.PNG";
 // import etrc from "../projects-img/etrc.png";
 import ViewButton from "./ViewButton";
 // import ImageSlider from "./ImageSlider";
+import ReactPlayer from 'react-player/youtube'
 
 function Designs() {
   let projects = [
@@ -36,19 +39,19 @@ function Designs() {
     {
       title: "Knowing you",
       artist: "GUC",
-      link: "https://a-calculator-for-you.netlify.app/",
+      url: "https://www.youtube.com/watch?v=HMqUCNixWtw",
       image: web1,
     },
     {
       title: "Na you dey reign",
       artist: "Mercy Chinwo",
-      link: "https://trasker.netlify.app/",
+      url: "https://www.youtube.com/watch?v=r8JE-mFnnmI",
       image: web1,
     },
     {
       title: "Journey",
       artist: "D'bloved",
-      link: "https://a-stopwatch.netlify.app/",
+      url: "https://www.youtube.com/watch?v=_vLLNyYk4XU",
       image: web1,
     },
   ];
@@ -58,19 +61,33 @@ function Designs() {
       title: "How to create a simple calculator with react on replit",
       info: "An article for beginners",
       link: "https://a-calculator-for-you.netlify.app/",
-      image: web1,
+      image: med1,
     },
     {
       title: "How to display user's name using react useContext hook",
       info: "An article for beginners",
       link: "https://trasker.netlify.app/",
-      image: web1,
+      image: med2,
     },
     {
       title: "How to implement a counter using react useState hook",
       info: "An article for beginners",
       link: "https://trasker.netlify.app/",
-      image: web1,
+      image: med2,
+    },
+  ]
+  let graphics = [
+    {
+      link: "https://a-calculator-for-you.netlify.app/",
+      image: med1,
+    },
+    {
+      link: "https://trasker.netlify.app/",
+      image: med2,
+    },
+    {
+      link: "https://trasker.netlify.app/",
+      image: med2,
     },
   ];
 
@@ -97,6 +114,8 @@ function Designs() {
                 href={project.link || ""}
                 target="__blank"
                 rel="noreferrer"
+                data-aos="fade-right"
+                data-aos-delay="100"
               >
                 <div className="rounded shadow-lg w-80 pb-8 bg-white mx-auto md:mr-auto md:ml-o md:mx-0 ">
                 <div
@@ -141,17 +160,15 @@ function Designs() {
                 href={article.link || ""}
                 target="__blank"
                 rel="noreferrer"
+                data-aos="fade-left"
+                data-aos-delay="100"
               >
+                 <div className="rounded shadow-lg w-80 pb-8 bg-white mx-auto md:mr-auto md:ml-o md:mx-0 ">
                 <div
                   style={{ backgroundImage: `url(${article.image})` }}
-                  className="rounded bg-center bg-cover shadow-lg w-72 h-72 bg-gray-300 mx-auto md:mr-auto md:ml-o md:mx-0 "
+                  className="bg-center bg-cover shadow-sm w-80 h-72 mx-auto md:mr-auto md:ml-o md:mx-0 "
                 >
-                  <h1 className="font-bold text-xl mt-3 text-gray-900">
-                    {article.title}
-                  </h1>
-                  <p className="font-semibold text-xl mt-3 text-gray-900">
-                    {article.info}
-                  </p>
+                </div>
                 </div>
               </a>
             );
@@ -172,7 +189,7 @@ function Designs() {
           <div className="w-40 lg:w-20  h-1 bg-red-600 ml-14 mb-10 rounded-2xl"></div>
         </div>
 
-        {/* <div className="lg:mx-40 flex flex-col md:flex-row flex-wrap">
+        <div className="lg:mx-40 flex flex-col md:flex-row flex-wrap">
           {graphics.map((graphic, graphicIndex) => {
             return (
               <a
@@ -181,22 +198,18 @@ function Designs() {
                 href={graphic.link || ""}
                 target="__blank"
                 rel="noreferrer"
+                data-aos="fade-right"
+                data-aos-delay="100"
               >
                 <div
                   style={{ backgroundImage: `url(${graphic.image})` }}
                   className="rounded bg-center bg-cover shadow-lg w-72 h-72 bg-gray-300 mx-auto md:mr-auto md:ml-o md:mx-0 "
                 >
-                  <h1 className="font-bold text-xl mt-3 text-gray-900">
-                    {graphic.title}
-                  </h1>
-                  <p className="font-semibold text-xl mt-3 text-gray-900">
-                    {graphic.info}
-                  </p>
                 </div>
               </a>
             );
           })}
-        </div> */}
+        </div>
 
         <Link to="/design-graphics">
           <ViewButton />
@@ -217,22 +230,17 @@ function Designs() {
             return (
               <a
                 key={lyricsVideoIndex}
-                className="w-full md:w-1/2 lg:w-1/3 text-center md:text-left py-6"
+                className="w-full md:w-1/2 lg:w-1/3 text-center md:text-left px-4 py-6 rounded-lg"
                 href={lyricsVideo.link || ""}
                 target="__blank"
                 rel="noreferrer"
+                data-aos="fade-left"
+                data-aos-delay="100"
               >
-                <div
-                  style={{ backgroundImage: `url(${lyricsVideo.image})` }}
-                  className="rounded bg-center bg-cover shadow-lg w-72 h-72 bg-gray-300 mx-auto md:mr-auto md:ml-o md:mx-0 "
-                >
-                  <h1 className="font-bold text-xl mt-3 text-gray-900">
-                    {lyricsVideo.title}
-                  </h1>
-                  <p className="font-semibold text-xl mt-3 text-gray-900">
-                    {lyricsVideo.info}
-                  </p>
-                </div>
+                    <ReactPlayer
+                        width="100%"
+                            url={lyricsVideo.url}
+                        />
               </a>
             );
           })}
