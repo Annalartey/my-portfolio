@@ -79,7 +79,7 @@ function Designs() {
   }, []);
   return (
     <div>
-      <div id="designs" data-aos="fade-up" className="app-design py-4">
+      <div id="designs" data-aos="fade-right" className="app-design py-4">
         <div className="text-4xl font-bold lg:mx-40 mt-14">
           <h1 className="text-center lg:text-left lg:text-7xl font-semibold my-8 ">
             Coding Projects
@@ -123,7 +123,7 @@ function Designs() {
         </Link>
       </div>
 
-      <div id="designs" data-aos="fade-up" className="app-design py-4">
+      <div id="designs" data-aos="fade-left" className="app-design py-4">
         <div className="text-4xl font-bold lg:mx-40 mt-14">
           <h1 className="text-center lg:text-left lg:text-7xl font-semibold my-8 ">
             Technical Articles
@@ -163,7 +163,7 @@ function Designs() {
         </a>
       </div>
 
-      <div id="designs" data-aos="fade-up" className="app-design py-4">
+      <div id="designs" data-aos="fade-right" className="app-design py-4">
         <div className="text-4xl font-bold lg:mx-40 mt-14">
           <h1 className="text-center lg:text-left lg:text-7xl font-semibold my-8 ">
             Graphic Designs
@@ -203,7 +203,7 @@ function Designs() {
         </Link>
       </div>
 
-      <div id="designs" data-aos="fade-up" className="app-design py-4">
+      <div id="designs" data-aos="fade-left" className="app-design py-4">
         <div className="text-4xl font-bold lg:mx-40 mt-14">
           <h1 className="text-center lg:text-left lg:text-7xl font-semibold my-8 ">
             Lyrics Videos
