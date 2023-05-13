@@ -20,6 +20,7 @@ function Main() {
                     <div className="w-40 lg:w-40 h-1 bg-red-300 my-2 lg:my-4 rounded-lg "></div>
                     <div className="w-40 lg:w-40 h-1 bg-red-300 ml-6 lg:ml-14 mb-10 rounded-2xl"></div>
                     <p className="text-center lg:text-left lg:text-xl">Frontend Software Developer / Graphic and Web Designer</p>
+                    <button>download CV</button>
                 </div>
                 <div data-aos="fade-down-left" data-aos-duration="3000" className="text-center font-bold text-4xl lg:text-6xl text-gray-200 lg:mr-40 lg:py-0">
                     <img src={port1} alt="girl"/>
