@@ -11,10 +11,17 @@ body::-webkit-scrollbar{
   display: none;
 }
 .main {
-  /* background-image: url("./images/pic.jpg"); */
-  background-color:#ffffff;
+  background-image: url("./images/bg.jpeg"); 
   background-attachment: fixed;
   background-position: center;
+  background-size: cover;
+}
+.about {
+  background-image: url("./images/bg.jpeg"); 
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  width: w-screen;
 }
 
 .loader_main {
@@ -135,14 +142,6 @@ body::-webkit-scrollbar{
     justify-content: space-between;
     align-items: center;
 
-}
-
-.about {
-    width: 600px;
-    max-height: 600px;
-    margin: 0px;
-    padding: 10px 20px;
-    border: 10px;
 }
 
 .design {

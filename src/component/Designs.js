@@ -8,9 +8,10 @@ import stopwatch from "../projects-img/stopwatch.png";
 import task from "../projects-img/task.png";
 import med1 from "../images/med1.PNG";
 import med2 from "../images/med2.PNG";
-// import etrc from "../projects-img/etrc.png";
+import img1 from "./flyers/img1-min.jpg"
+import img3 from "./flyers/img3-min.jpg"
+import img6 from "./flyers/img6-min.jpg"
 import ViewButton from "./ViewButton";
-// import ImageSlider from "./ImageSlider";
 import ReactPlayer from 'react-player/youtube'
 
 function Designs() {
@@ -79,15 +80,15 @@ function Designs() {
   let graphics = [
     {
       link: "https://a-calculator-for-you.netlify.app/",
-      image: med1,
+      image: img1,
     },
     {
       link: "https://trasker.netlify.app/",
-      image: med2,
+      image: img3,
     },
     {
       link: "https://trasker.netlify.app/",
-      image: med2,
+      image: img6,
     },
   ];
 
