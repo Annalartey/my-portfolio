@@ -2,27 +2,66 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div id='contact' className='lg:flex lg:flex-row text-black pt-14'>
+        <div id='contact' className='contact lg:pl-40 lg:flex lg:flex-row text-black lg:py-14'>
                <div className=" lg:ml-40">
                     <div data-aos="fade-right">
-                        <h1 className="text-center lg:text-left font-semibold text-5xl lg:text-8xl mb-10">Get In Touch</h1>
-                        <div className="w-40 lg:w-20 h-1 bg-red-600 my-2 rounded-2xl "></div>
-                        <div className="w-40 lg:w-20 h-1 bg-red-600 ml-14 mb-10 rounded-2xl"></div>
-                        <div className="text-center lg:text-left">
-                            <p className="text-2xl">anna.t.lartey@gmail.com</p>
-                            <h4>Send me a message</h4>
-                            <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-                            <button>Send</button>
-
+                        <div className="isolate bg-white px-6 py-24 sm:py-32 lg:px-8">
+                        <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]" aria-hidden="true">
+                            <div className="relative left-1/2 -z-10 aspect-[1155/678] w-[36.125rem] max-w-none -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-40rem)] sm:w-[72.1875rem]"></div>
                         </div>
+                        <div className="mx-auto max-w-2xl text-center">
+                            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Get in touch</h2>
+                            <p className="mt-2 text-lg leading-8 text-gray-600">I'll love to hear from you.</p>
+                        </div>
+                        <form action="#" method="POST" className="mx-auto mt-16 max-w-xl sm:mt-20">
+                            <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+                            <div>
+                                <label for="first-name" className="block text-sm font-semibold leading-6 text-gray-900">First name</label>
+                                <div className="mt-2.5">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                </div>
+                            </div>
+                            <div>
+                                <label for="last-name" className="block text-sm font-semibold leading-6 text-gray-900">Last name</label>
+                                <div className="mt-2.5">
+                                <input type="text" name="last-name" id="last-name" autocomplete="family-name" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label for="company" className="block text-sm font-semibold leading-6 text-gray-900">Company</label>
+                                <div className="mt-2.5">
+                                <input type="text" name="company" id="company" autocomplete="organization" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label for="email" className="block text-sm font-semibold leading-6 text-gray-900">Email</label>
+                                <div className="mt-2.5">
+                                <input type="email" name="email" id="email" autocomplete="email" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label for="phone-number" className="block text-sm font-semibold leading-6 text-gray-900">Phone number</label>
+                                <div className="mt-2.5">
+                                <input type="tel" name="phone-number" id="phone-number" autocomplete="tel" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"/>
+                                </div>
+                            </div>
+                            <div className="sm:col-span-2">
+                                <label for="message" className="block text-sm font-semibold leading-6 text-gray-900">Message</label>
+                                <div className="mt-2.5">
+                                <textarea name="message" id="message" rows="4" className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"></textarea>
+                                </div>
+                            </div>
+                            </div>
+                            <div className="mt-10">
+                            <button type="submit" className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Let's talk</button>
+                            </div>
+                        </form>
+                    </div>
                         
-                    </div>
-                        <button  data-aos="fade-up" className='rounded-xl border-2 border-red-400 font-bold ml-32 lg:-ml-2 lg:text-xl my-10 lg:px-8 px-4 lg:ml-40'> See More</button>
-                    </div>
-                    <i class="fab fa-twitter"></i>
-               
-                 
-            </div> 
+                </div>
+        </div>
+        </div>
+                    
     )
 }
 

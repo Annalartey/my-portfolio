@@ -14,13 +14,13 @@ function Main() {
     return (
         <div className='main'>
             <div id='home' className='App-header pt-20 lg:flex lg:flex-row lg:px-40 w-full lg:justify-between lg:items-start lg:pt-0 text-black' data-aos="fade-up" >
-                <div data-aos="fade-right" className=" ">
+                <div data-aos="fade-right" className="my-auto justify-items-center">
                     <p className='text-2xl text-center font-sembold lg:text-left'>Hello, My name is</p>
                     <h1 className="text-4xl text-center lg:text-left lg:text-9xl mb-2 pt-8 font-semibold">Anna Lartey</h1>
                     <div className="w-40 lg:w-40 h-1 bg-red-500 my-2 lg:my-4 rounded-lg "></div>
                     <div className="w-40 lg:w-40 h-1 bg-red-500 ml-6 lg:ml-14 mb-10 rounded-2xl"></div>
                     <p className="text-center lg:text-left lg:text-xl">Frontend Software Developer / Graphic and Web Designer</p>
-                    <a href={resume} download='resume' >
+                    <a href={resume} download='resume' className='flex justify-items-center mx-auto' >
                         <button className='bg-white rounded border border-red-400 px-6 py-2 hover:bg-red-400'>download CV</button>
                     </a>
                 </div>

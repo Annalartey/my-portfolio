@@ -195,7 +195,7 @@ function Designs() {
             return (
               <a
                 key={graphicIndex}
-                className="w-full md:w-1/2 lg:w-1/3 text-center md:text-left py-6"
+                className="w-full md:w-1/2 lg:w-1/2 text-center md:text-left py-6"
                 href={graphic.link || ""}
                 target="__blank"
                 rel="noreferrer"
@@ -204,7 +204,7 @@ function Designs() {
               >
                 <div
                   style={{ backgroundImage: `url(${graphic.image})` }}
-                  className="rounded bg-center bg-cover shadow-lg w-72 h-72 bg-gray-300 mx-auto md:mr-auto md:ml-o md:mx-0 "
+                  className="rounded bg-center bg-cover shadow-lg w-92 h-72 bg-gray-300 mx-auto md:mr-auto md:ml-o md:mx-0 "
                 >
                 </div>
               </a>
